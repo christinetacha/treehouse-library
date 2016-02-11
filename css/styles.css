@@ -1,0 +1,97 @@
+* {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+  height: 40px;
+}
+
+hr {
+  height: 3px;
+  margin-top: 0;
+}
+
+.container {
+  width: 1010px;
+  margin: auto;
+  background-color: lightgrey;
+  overflow: auto;
+  padding: 5px;
+}
+/* Begin Nav Styling */
+.avatar {
+  height: 40px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.navbar{
+  border: 1px solid #eee;
+  background-color: #efefef;
+}
+
+.navbar li {
+  float: left;
+  margin: 0 5px 0 5px;
+  padding-top: 10px;
+  height: 30px;
+}
+
+.navbar ul {
+  float: right;
+}
+
+ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-symbols {
+  font-size: 1.4em;
+  color: grey;
+}
+
+.navbar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* End Nav Styling */
+
+.course {
+  width: 430px;
+  height: 300px;
+  margin: 5px 15px 20px 20px;
+  padding: 70px 20px 20px 20px;
+  float: left;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+
+.course li {
+  float: left;
+}
+
+.course ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left-align {
+  float: left;
+}
+
+.course-header {
+  background-color: #abcdef;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px 5px 0 0;
+}
