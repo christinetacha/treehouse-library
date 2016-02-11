@@ -227,7 +227,7 @@ button {
   border-radius: 10%;
   text-align: center;
 }
-
+/*
 .pop-up::after {
   border-top-width: 15px;
   border-right-width: 15px;
@@ -241,7 +241,7 @@ button {
   position: absolute;
   bottom: -15px;
   width: 0;
-}
+}*/
 
 .panel-symbols:hover + .pop-up {
   display: table;
